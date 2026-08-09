@@ -1,0 +1,518 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+}
+.navbar .resume-btn{
+    position: relative;
+    top: 1.8em;
+    left: 535px;
+    
+ }
+ .navbar  button{
+    background-color: rgb(14, 13, 13);
+    color: rgb(252, 250, 250);
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navbar .nav-links {
+    position: relative;
+    left: 200px;
+    top: 2.25rem;
+}
+.nav-links a{
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.nav-links a:hover{
+    opacity: 1;
+    text-decoration: underline rgb(70, 70, 248);
+}
+.navbar .logo{
+    font-size: x-large;
+    position: relative;
+    top: 50%;
+    padding-left: 210px;
+}
+.navbar {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.422);
+    position: relative;
+    background-color: white;
+    bottom: 20px;
+    width: 1000%;
+    right: 10px;
+}
+body{
+    background-color: aliceblue;
+    width: 100%;
+    overflow-x: hidden;
+}
+.intro .text{
+    position: relative;
+    left: 200px;
+    top : 20px;
+}
+.intro .text h2{
+    font-size: xx-large;
+    font-weight: 1000px;
+}
+.intro div {
+    height: 30px;
+    width: 510px;
+}
+.intro .text p{
+    line-height: 37px;
+    font-size: medium;
+}
+.intro {
+    display: flex;
+}
+.intro .img{
+    height: 220px;
+    width: 350px;
+    background-color: blueviolet;
+    position: relative;
+    top: 40px;
+    left: 460px;
+    border-radius: 10px;
+    background-image: url(p1.png);
+    background-size: cover;
+}
+hr{
+    width: 77%;
+    position: relative;
+    top: 100px;
+    opacity: 0.3;
+}
+.tech h3{
+    position: relative;
+    top: 90px;
+    left: 200px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.tech .lbox{
+    height: 190px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.lbox .material-symbols-outlined{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: blue;
+    background-color: rgb(117, 202, 231);
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+.lbox h4{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.lbox button{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tbox{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 20px;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.tech .wbox{
+    height: 190px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.wbox button{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wbox h4{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.wbox .material-symbols-outlined{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: blue;
+    background-color: rgb(117, 202, 231);
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+.tibox button{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.tibox h4{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.tibox .material-symbols-outlined{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: blue;
+    background-color: rgb(117, 202, 231);
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+.tech .tibox{
+    height: 190px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.tech hr{
+    position: relative;
+    top: 70px;
+    width: 75%;
+    border: 1px solid rgba(0, 0, 0, 0.422);
+}
+.cp h3{
+    position: relative;
+    top: 90px;
+    left: 200px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.cpbox .lbox{
+    height: 190px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    position: relative;
+    top: 90px;
+    border-radius: 20px;
+    left: 200px;
+    margin-top: 20px;
+}
+.cpbox  .lbox h4{
+    position: relative;
+    bottom: 5px;
+    left: 20px;
+}
+.cp .cpbox .lbox .material-symbols-outlined{
+    position: relative;
+    top: -60px;
+    left: 260px;
+    background-color: white;
+    color: black;
+}
+.cpbox .lbox p{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    font-size: small;
+    opacity: 0.5;
+}
+.cpbox .lbox .loader{
+    height: 8px;
+    width: 250px;
+    background: linear-gradient(to right, rgb(0, 0, 253) 83%, white 50%);
+    color: rgba(0, 0, 0, 0.582);
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    left: 20px;
+    bottom: 70px;
+}
+.cpbox  .lbox h2{
+    position: relative;
+    bottom: 73px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: lighter;
+}
+.cpbox{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 20px;
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+.cpbox .cfbox{
+    height: 190px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    position: relative;
+    top: 90px;
+    border-radius: 20px;
+    margin-right: 20PX;
+    margin-bottom: 60PX;
+    margin-top: 20px;
+    left: 200px;
+}
+.cpbox .gbox{
+    height: 190px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    position: relative;
+    top: 90px;
+    border-radius: 20px;
+    left: 200px;
+    margin-top: 20px;
+}
+.cpbox  .cfbox h4{
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+.cpbox  .cfbox h4{
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+.cpbox .cfbox p{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    font-size: small;
+    opacity: 0.5;
+}
+.cpbox  .cfbox h2{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.cpbox .cfbox h3{
+    position: relative;
+    top: -70px;
+    left: 20px;
+    text-decoration: none;
+    color: blue;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.cpbox  .gbox h4{
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+    font-size: large;
+    font-weight: lighter;
+}
+.cp .cpbox .cfbox .material-symbols-outlined{
+    position: relative;
+    top: -47px;
+    left: 260px;
+    background-color: white;
+    color: black;
+}
+.cp .cpbox .gbox .material-symbols-outlined{
+    position: relative;
+    top: -47px;
+    left: 260px;
+    background-color: white;
+    color: black;
+}
+.cpbox .gbox p{
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+    font-size: small;
+    opacity: 0.5;
+}
+.cpbox  .gbox h2{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.cpbox .gbox #i {
+    position: relative;
+    bottom: 65px;
+}
+.fp{
+    position: relative;
+    top: 90px;
+    left: 200px; 
+    
+}
+#fp h3{
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.pb{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 0px;
+}
+.pb .p1{
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+.p1 .i2{
+    height: 140px;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(i2.avif);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.p1 h4{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.p1 p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 8px;
+    opacity: 0.5;
+}
+.p1 hr{
+    position: relative;
+    bottom: 100px;
+}
+.p1 button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.pb .p2{
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.p2 button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.p2 hr{
+    position: relative;
+    bottom: 100px;
+}
+.p2 p{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 8px;
+    opacity: 0.5;
+}
+.p2 .i2{
+    height: 140px;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(i2.avif);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.p2 h4{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+footer{
+    position: relative;
+    background-color: white;
+    top: 30px;
+    overflow-y: hidden;
+    width: 1000%;
+    right: 10px;
+    height: 70px;
+}
+.cd{
+    display: flex;
+    gap: 300px;
+}
+.cd p{
+    margin-left: 210px;
+    opacity: 0.8;
+}
+.cd a{
+    margin-top: 13px;
+    
+    opacity: 0.8;
+}
+.ca a{
+    position: relative;
+    top: 13px;
+    text-decoration: none;
+    margin-right: 60px;
+    left: 110px;
+    color: black;
+    opacity: 0.5;
+}
+
