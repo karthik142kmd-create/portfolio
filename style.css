@@ -64,7 +64,7 @@ body{
 .intro .text{
     position: relative;
     left: 200px;
-    top: 20px;
+    top: 80px;
 }
 .intro .text h2{
     font-size: xx-large;
@@ -89,7 +89,7 @@ body{
     height: 220px;
     width: 350px;
     background-color: blueviolet;
-    margin-top: 40px;
+    margin-top: 90px;
     border-radius: 10px;
     background-image: url(p1.png);
     background-size: cover;
@@ -315,6 +315,7 @@ hr{
     border-radius: 20px;
     left: 200px;
     margin-top: 20px;
+    margin-bottom: 90px;
 }
 .cpbox  .cfbox h4{
     position: relative;
@@ -414,6 +415,7 @@ hr{
     width: 500px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.511);
     margin-bottom: 90px;
 }
 .p1 .i2{
@@ -452,6 +454,7 @@ hr{
     height: 350px;
     width: 500px;
     background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.511);
     border-radius: 20px;
 }
 .p2 button{
@@ -492,7 +495,7 @@ hr{
 footer{
     position: relative;
     background-color: white;
-    
+    margin-top: 100px;
     overflow-y: hidden;
     width: 1000%;
     right: 10px;
