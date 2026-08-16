@@ -7,7 +7,7 @@ html {
 .navbar .resume-btn{
     position: relative;
     top: 1.8em;
-    left: 535px;
+    left: 500px;
     
  }
  .navbar  button{
@@ -39,59 +39,66 @@ html {
     font-size: x-large;
     position: relative;
     top: 50%;
-    padding-left: 210px;
+    margin-left: 200px ;
 }
 .navbar {
     border-left: none;
     border-right: none;
     border-top: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.422);
-    position: relative;
+    position: sticky;
     background-color: white;
-    bottom: 20px;
-    width: 1000%;
-    right: 10px;
+   top: 0px;
+    margin-top: 0px;
+    z-index: 1000;
+    width: 100%;
+    
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(231, 244, 254);
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
     overflow-x: hidden;
 }
 .intro .text{
     position: relative;
     left: 200px;
-    top : 20px;
+    top: 20px;
 }
 .intro .text h2{
     font-size: xx-large;
     font-weight: 1000px;
 }
 .intro div {
-    height: 30px;
-    width: 510px;
+    display: flex;
+}
+.intro .text{
+    display: inline;
 }
 .intro .text p{
-    line-height: 37px;
+    width: 500px;
+    line-height: 30px;
     font-size: medium;
 }
 .intro {
     display: flex;
+    gap: 440px;
 }
 .intro .img{
     height: 220px;
     width: 350px;
     background-color: blueviolet;
-    position: relative;
-    top: 40px;
-    left: 460px;
+    margin-top: 40px;
     border-radius: 10px;
     background-image: url(p1.png);
     background-size: cover;
 }
 hr{
-    width: 77%;
     position: relative;
-    top: 100px;
+    top: 75px;
+    width: 77%;
+    margin: 20px auto;
     opacity: 0.3;
 }
 .tech h3{
@@ -103,11 +110,12 @@ hr{
 }
 .tech .lbox{
     height: 190px;
-    width: auto;
+    
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0.422);
     border-radius: 20px;
     margin-top: 20px;
+    
 }
 .lbox .material-symbols-outlined{
     position: relative;
@@ -141,7 +149,7 @@ hr{
 .tbox{
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    gap: 20px;
+    gap: 50px;
     margin-left: 200px;
     padding-top: 100px;
 }
@@ -220,12 +228,7 @@ hr{
     border-radius: 20px;
     margin-top: 20px;
 }
-.tech hr{
-    position: relative;
-    top: 70px;
-    width: 75%;
-    border: 1px solid rgba(0, 0, 0, 0.422);
-}
+
 .cp h3{
     position: relative;
     top: 90px;
@@ -252,7 +255,7 @@ hr{
 .cp .cpbox .lbox .material-symbols-outlined{
     position: relative;
     top: -60px;
-    left: 260px;
+    left: 300px;
     background-color: white;
     color: black;
 }
@@ -360,14 +363,14 @@ hr{
 .cp .cpbox .cfbox .material-symbols-outlined{
     position: relative;
     top: -47px;
-    left: 260px;
+    left: 300px;
     background-color: white;
     color: black;
 }
 .cp .cpbox .gbox .material-symbols-outlined{
     position: relative;
     top: -47px;
-    left: 260px;
+    left: 300px;
     background-color: white;
     color: black;
 }
@@ -393,7 +396,6 @@ hr{
     position: relative;
     top: 90px;
     left: 200px; 
-    
 }
 #fp h3{
     font-size: xx-large;
@@ -401,7 +403,7 @@ hr{
 }
 .pb{
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(2, 350px);
     gap: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -434,7 +436,7 @@ hr{
 }
 .p1 hr{
     position: relative;
-    bottom: 100px;
+    bottom: 400px;
 }
 .p1 button{
     margin-left: 20px;
@@ -464,12 +466,15 @@ hr{
 }
 .p2 hr{
     position: relative;
-    bottom: 100px;
+    margin-top: 0px;
+   
 }
 .p2 p{
+    
     margin-left: 20px;
     font-size: 15px;
     margin-right: 8px;
+    margin-top: 0;
     opacity: 0.5;
 }
 .p2 .i2{
@@ -487,7 +492,7 @@ hr{
 footer{
     position: relative;
     background-color: white;
-    top: 30px;
+    
     overflow-y: hidden;
     width: 1000%;
     right: 10px;
@@ -498,21 +503,28 @@ footer{
     gap: 300px;
 }
 .cd p{
+    position: relative;
+    bottom: 30px;
     margin-left: 210px;
     opacity: 0.8;
 }
 .cd a{
-    margin-top: 13px;
-    
+    margin-top: 0px;
+   
     opacity: 0.8;
 }
 .ca a{
     position: relative;
-    top: 13px;
+    bottom: 13px;
     text-decoration: none;
     margin-right: 60px;
     left: 110px;
     color: black;
     opacity: 0.5;
 }
-
+.fp {
+    width: 100px;
+}
+.fp h3{
+    width: 400px;
+}
