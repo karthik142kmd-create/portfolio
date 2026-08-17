@@ -3,6 +3,7 @@ html {
 }
 .navbar{
     display: flex;
+    width: 1000%;
 }
 .navbar .resume-btn{
     position: relative;
@@ -48,10 +49,11 @@ html {
     border-bottom: 1px solid rgba(0, 0, 0, 0.422);
     position: sticky;
     background-color: white;
-   top: 0px;
+    top: 0px;
     margin-top: 0px;
+    
     z-index: 1000;
-    width: 100%;
+    width: 100rem;
     
 }
 body{
@@ -59,6 +61,7 @@ body{
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 .intro .text{
@@ -97,7 +100,7 @@ body{
 hr{
     position: relative;
     top: 75px;
-    width: 77%;
+    width: 100rem;
     margin: 20px auto;
     opacity: 0.3;
 }
@@ -495,11 +498,12 @@ hr{
 footer{
     position: relative;
     background-color: white;
-    margin-top: 100px;
+   margin-top: 100px;
+   margin-trim: in-flow;
     overflow-y: hidden;
     width: 1000%;
     right: 10px;
-    height: 70px;
+    
 }
 .cd{
     display: flex;
